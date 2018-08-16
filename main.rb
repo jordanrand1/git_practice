@@ -7,7 +7,7 @@ end
 
 def menu
   puts "Main Menu".colorize(:cyan)
-  puts "1: Enter Git Command"
+  puts "1: Enter Git Command".colorize(:cyan)
   puts "2: Exit"
   case gets.to_i
     when 1 
