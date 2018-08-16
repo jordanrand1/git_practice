@@ -4,6 +4,7 @@ def puts_git(cmd)
 end
 
 def menu
+  puts "Main Menu".colorize(:cyan)
   puts "1: Enter Git Command"
   puts "2: Exit"
   case gets.to_i
